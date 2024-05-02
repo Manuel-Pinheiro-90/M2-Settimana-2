@@ -1,0 +1,109 @@
+/* Reset generale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Normalizzazione degli stili */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Normalizzazione degli elementi di elenco */
+ul, ol {
+  list-style: none; /* Rimuove i punti di elenco predefiniti */
+}
+
+/* Normalizzazione dei link */
+a {
+  text-decoration: none; /* Rimuove la sottolineatura predefinita */
+  color: inherit; /* Eredita il colore del testo dal genitore */
+}
+
+.margin-xs {
+  margin: 0.5em;
+}
+
+.margin-n {
+  margin: 1em;
+}
+
+.margin-md {
+  margin: 1.25em;
+}
+
+.margin-lg {
+  margin: 1.5e;
+}
+
+.margin-xl {
+  margin: 1.75em;
+}
+
+.margin-xxl {
+  margin: 2em;
+}
+
+.padding-xs {
+  padding: 0.5em;
+}
+
+.padding-n {
+  padding: 1em;
+}
+
+.padding-md {
+  padding: 1.25em;
+}
+
+.padding-lg {
+  padding: 1.5e;
+}
+
+.padding-xl {
+  padding: 1.75em;
+}
+
+.padding-xxl {
+  padding: 2em;
+}
+
+.button--banana {
+  padding: 10px 20px;
+  background-color: #0E6CFF;
+  color: white;
+  font-weight: bold;
+}
+
+.button--odio {
+  padding: 10px 20px;
+  background-color: #FF8700;
+  color: white;
+  font-weight: bold;
+}
+
+.button--ciao {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  background-color: #640FC5;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

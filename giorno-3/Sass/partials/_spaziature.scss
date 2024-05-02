@@ -1,0 +1,26 @@
+$spacing-m:(
+xs:0.5em,
+n:1em,
+md: 1.25em,
+lg:1.5e,
+xl:1.75em,
+xxl:2em,
+);
+@each $size, $value in $spacing-m{
+    .margin-#{$size}{margin: #{$value};
+}
+}
+
+
+
+$spacing-p:(
+xs:0.5em,
+n:1em,
+md: 1.25em,
+lg:1.5e,
+xl:1.75em,
+xxl:2em,);
+@each $size, $value in $spacing-p{
+    .padding-#{$size}{padding: #{$value};
+}
+}

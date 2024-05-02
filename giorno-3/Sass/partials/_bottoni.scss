@@ -1,0 +1,15 @@
+
+// Mixin per generare gli stili del bottone
+@mixin button($color) {
+    padding: 10px 20px;
+    background-color: $color;
+    color: white;
+    font-weight: bold;
+}
+
+// Applicazione del mixin per ciascun colore definito
+@each $key, $color in $colore-bottoni {
+    .button--#{$key} {
+        @include button($color);
+    }
+}

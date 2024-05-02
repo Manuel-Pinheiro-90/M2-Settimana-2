@@ -1,0 +1,27 @@
+/* Reset generale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Normalizzazione degli stili */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Normalizzazione degli elementi di elenco */
+ul, ol {
+    list-style: none; /* Rimuove i punti di elenco predefiniti */
+}
+
+/* Normalizzazione dei link */
+a {
+    text-decoration: none; /* Rimuove la sottolineatura predefinita */
+    color: inherit; /* Eredita il colore del testo dal genitore */
+}
+
+
